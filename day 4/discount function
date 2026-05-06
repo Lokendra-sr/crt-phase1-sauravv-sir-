@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+void discount(double &price)
+{
+    price=price*0.9;    
+}
+int main()
+{
+    double price;
+    cin>>price;
+    discount(price);
+    cout<<price;
+    return 0;
+}
